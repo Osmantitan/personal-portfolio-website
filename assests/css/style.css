@@ -27,5 +27,13 @@ review my css code:root{
     border-radius: 50%;
     border: 3px solid #000000;
     margin-bottom: 10px;
-  }
   
+    body {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                        url('../image/background.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  ;
+  }
