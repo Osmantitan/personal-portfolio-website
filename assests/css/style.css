@@ -3,7 +3,6 @@ review my css code:root{
     --bg:#ffffff;
     --text:#222;
   }
-  
   body{
     font-family: 'Poppins', sans-serif;
     color:var(--text);
@@ -28,7 +27,7 @@ review my css code:root{
     border: 3px solid #000000;
     margin-bottom: 10px;
     body {
-      
+
       background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
                         url('../image/background.png');
       background-size: cover;
