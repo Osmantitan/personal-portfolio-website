@@ -1,37 +1,57 @@
-review my css code:root{
-    --accent:#0db9fd;
-    --bg:#ffffff;
-    --text:#222;
-  }
-  body{
-    font-family: 'Poppins', sans-serif;
-    color:var(--text);
-    background:var(--bg);
-  }
-  
-  /* Hero */
-  .hero img{ object-fit:cover; }
-  
-  /* Projects grid */
-  .project-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem; }
-  
-  /* Small styling */
-  footer a{ color:#fff; text-decoration:underline; }
-
-
-  .profile-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #000000;
-    margin-bottom: 10px;
-}
-
+/* Make all text lighter for dark background */
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  color: #ffffff; /* White text */
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+p {
+  color: #f0f0f0 !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.lead {
+  color: #e0e0e0 !important;
+}
+
+/* Make footer text lighter */
+footer {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+
+footer p {
+  color: #ffffff !important;
+}
+
+footer a {
+  color: #ffffff !important;
+}
+
+footer a:hover {
+  color: #007bff !important;
+}
+
+/* Navigation links */
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+/* Button styling for better visibility */
+.btn-outline-secondary {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff !important;
+}
+  
