@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Osman Shabir</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        body {
+            background: #000;
+            color: #fff;
+        }
+        .dashboard-box {
+            background: #111;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+        }
+        .dashboard-link {
+            display: block;
+            padding: 15px;
+            border-radius: 8px;
+            background: #222;
+            color: #0db9fd;
+            text-decoration: none;
+            margin-bottom: 10px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .dashboard-link:hover {
+            background: #0db9fd;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Admin Panel</a>
+                <a class="btn btn-danger" href="admin-login.html">Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Dashboard -->
+    <main class="container py-5">
+        <div class="dashboard-box">
+
+            <h2 class="text-center mb-4">Welcome, Admin 👋</h2>
+            <p class="text-center mb-4">This is your control center. Choose an action below.</p>
+
+            <a href="#" class="dashboard-link">📬 View Messages</a>
+            <a href="#" class="dashboard-link">🛠 Manage Projects</a>
+            <a href="#" class="dashboard-link">👤 Update Profile</a>
+            <a href="#" class="dashboard-link">⚙️ System Settings</a>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light text-dark py-3 mt-5">
+        <div class="container text-center">
+            <p>© 2025 Osman Shabir. Admin Panel.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
