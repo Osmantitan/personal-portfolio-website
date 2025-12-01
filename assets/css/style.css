@@ -1,10 +1,13 @@
 /* Base styles */
 body {
+  /* Combined styles from original 'body' and the second 'body' block */
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #121212;
-  color: #f0f0f0;
+  /* Using #000 (Black) as requested by the last block, overriding #121212 */
+  background-color: #000;
+  /* Using #fff (White) from the last block, overriding #f0f0f0 */
+  color: #fff;
 }
 
 /* Header and navigation */
@@ -28,16 +31,30 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  /* Combined h3 color from login-card block */
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 p, .lead, label {
+  /* Combined label color from login-card block, but retaining the original text-shadow for consistency */
   color: #e0e0e0;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+/* Login Card (Adjusted for a dark background) */
+.login-card {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 10px;
+  /* CHANGE THIS LINE: Use a dark gray like #1f1f1f or #2a2a2a */
+  background: #1f1f1f; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
 /* Profile image */
+/* NOTE: The selector 'profile-img' is non-standard. You might want to use a class like '.profile-img' instead. */
 profile-img {
   width: 20px;
   height: 50px;
